@@ -21,6 +21,7 @@ function App() {
         </Container>
       </Navbar>
 
+      <Route exact path="/" component={Home} />
       <Route exact path="/Home" component={Home} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
